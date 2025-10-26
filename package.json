@@ -1,0 +1,23 @@
+{
+  "name": "beatmate-backend",
+  "version": "1.0.0",
+  "description": "Backend and DataBase repository for Beatmate App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnau-66/beatmate-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnau-66/beatmate-backend/issues"
+  },
+  "homepage": "https://github.com/Arnau-66/beatmate-backend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
