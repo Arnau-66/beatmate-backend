@@ -5,6 +5,18 @@ const app = express();
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.json({
+        status: "ok",
+        message: "BeatMate API is running",
+        endpoints: {
+            ping: "GET /ping",
+            login: "POST /api/auth/login",
+            register: "POST /api/auth/register"
+        }
+    })
+});
+
 app.get("/ping", (req, res) => {
     res.json({ message: "pong"});
 });
