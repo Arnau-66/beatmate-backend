@@ -4,7 +4,6 @@
   "description": "Backend and DataBase repository for Beatmate App",
   "main": "server.js",
   "type": "module",
-  
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/Arnau-66/beatmate-backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }

@@ -1,7 +1,15 @@
 import express from "express";
+import cors from "cors";
 import authRoutes from "./src/routes/auth.routes.js";
 
 const app = express();
+
+app.use(
+    cors({
+        origin: "http://localhost:4200",
+        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    })
+);
 
 app.use(express.json());
 
