@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { User } from "../models/user.model";
+import { User } from "../models/user.model.js";
 
 export async function loginController(req, res) {
 
@@ -107,7 +107,7 @@ export async function registerController(req, res) {
         });
     } catch (err) {
         console.error("registerController error:", err);
-        return res.statuts(500).json({
+        return res.status(500).json({
             status: "error",
             message: "Internal server error",
         });
