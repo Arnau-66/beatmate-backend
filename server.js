@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { connectDB } from "./src/config/db.js";
 import authRoutes from "./src/routes/auth.routes.js";
+import festivalsRoutes from "/src/routes/festival.routes.js"
 
 dotenv.config();
 
@@ -34,6 +35,8 @@ app.get("/ping", (req, res) => {
 });
 
 app.use("/api/auth", authRoutes);
+app.use("/api/festivals", festivalsRoutes);
+
 
 const PORT = 3000;
 
