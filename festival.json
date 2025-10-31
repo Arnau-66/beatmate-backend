@@ -1,22 +1,437 @@
-{
-  "name": "Defqon.1",
-  "location": {
-    "place": "Evenemententerrein",
-    "city": "Biddinghuizen",
-    "country": "Netherlands",
-    "coords": { "lng": 5.7181, "lat": 52.455 }
-  },
-  "startAt": "2025-06-27T10:00:00Z",
-  "endAt": "2025-06-29T23:59:00Z",
-  "genres": ["Hardstyle", "Hardcore"],
-  "popularity": 95,
-  "slots": [
+{ "festivals": 
+
+  [
     {
-      "artist": "Headhunterz",
-      "stage": "RED",
-      "style": "Hardstyle",
-      "startAt": "2025-06-28T21:00:00Z",
-      "endAt": "2025-06-28T22:00:00Z"
+      "name": "Defqon.1",
+      "location": {
+        "place": "Evenemententerrein",
+        "city": "Biddinghuizen",
+        "country": "Netherlands",
+        "coords": { "lng": 5.7181, "lat": 52.455 }
+      },
+      "startAt": "2025-06-27T10:00:00Z",
+      "endAt": "2025-06-29T23:59:00Z",
+      "genres": ["Hardstyle", "Hardcore"],
+      "popularity": 95,
+      "slots": [
+        {
+          "artist": "Headhunterz",
+          "stage": "RED",
+          "style": "Hardstyle",
+          "startAt": "2025-06-28T21:00:00Z",
+          "endAt": "2025-06-28T22:00:00Z"
+        },
+        {
+          "artist": "Angerfist",
+          "stage": "BLACK",
+          "style": "Hardcore",
+          "startAt": "2025-06-28T23:00:00Z",
+          "endAt": "2025-06-29T00:00:00Z"
+        },
+        {
+          "artist": "D-Block & S-te-Fan",
+          "stage": "BLUE",
+          "style": "Hardstyle",
+          "startAt": "2025-06-28T19:00:00Z",
+          "endAt": "2025-06-28T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Tomorrowland",
+      "location": {
+        "place": "De Schorre",
+        "city": "Boom",
+        "country": "Belgium",
+        "coords": { "lng": 4.383, "lat": 51.091 }
+      },
+      "startAt": "2025-07-18T10:00:00Z",
+      "endAt": "2025-07-20T23:59:00Z",
+      "genres": ["EDM", "House", "Trance"],
+      "popularity": 100,
+      "slots": [
+        {
+          "artist": "Martin Garrix",
+          "stage": "Mainstage",
+          "style": "Progressive House",
+          "startAt": "2025-07-19T22:00:00Z",
+          "endAt": "2025-07-19T23:00:00Z"
+        },
+        {
+          "artist": "Armin van Buuren",
+          "stage": "Freedom",
+          "style": "Trance",
+          "startAt": "2025-07-19T23:00:00Z",
+          "endAt": "2025-07-20T00:00:00Z"
+        },
+        {
+          "artist": "Charlotte de Witte",
+          "stage": "Atmosphere",
+          "style": "Techno",
+          "startAt": "2025-07-20T20:00:00Z",
+          "endAt": "2025-07-20T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Wacken Open Air",
+      "location": {
+        "place": "Hauptstraße",
+        "city": "Wacken",
+        "country": "Germany",
+        "coords": { "lng": 9.383, "lat": 54.022 }
+      },
+      "startAt": "2025-08-01T10:00:00Z",
+      "endAt": "2025-08-03T23:59:00Z",
+      "genres": ["Metal", "Rock"],
+      "popularity": 92,
+      "slots": [
+        {
+          "artist": "Metallica",
+          "stage": "Faster Stage",
+          "style": "Heavy Metal",
+          "startAt": "2025-08-02T22:00:00Z",
+          "endAt": "2025-08-02T23:30:00Z"
+        },
+        {
+          "artist": "Slipknot",
+          "stage": "Harder Stage",
+          "style": "Nu Metal",
+          "startAt": "2025-08-01T23:00:00Z",
+          "endAt": "2025-08-02T00:30:00Z"
+        },
+        {
+          "artist": "Amon Amarth",
+          "stage": "Faster Stage",
+          "style": "Melodic Death Metal",
+          "startAt": "2025-08-03T20:00:00Z",
+          "endAt": "2025-08-03T21:15:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Awakenings Festival",
+      "location": {
+        "place": "Spaarnwoude",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "coords": { "lng": 4.748, "lat": 52.395 }
+      },
+      "startAt": "2025-06-14T12:00:00Z",
+      "endAt": "2025-06-15T23:00:00Z",
+      "genres": ["Techno"],
+      "popularity": 90,
+      "slots": [
+        {
+          "artist": "Adam Beyer",
+          "stage": "Area X",
+          "style": "Techno",
+          "startAt": "2025-06-14T22:00:00Z",
+          "endAt": "2025-06-14T23:00:00Z"
+        },
+        {
+          "artist": "Amelie Lens",
+          "stage": "Mainstage",
+          "style": "Techno",
+          "startAt": "2025-06-15T21:00:00Z",
+          "endAt": "2025-06-15T22:00:00Z"
+        },
+        {
+          "artist": "Reinier Zonneveld",
+          "stage": "Area Z",
+          "style": "Live Techno",
+          "startAt": "2025-06-15T19:00:00Z",
+          "endAt": "2025-06-15T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Coachella",
+      "location": {
+        "place": "Empire Polo Club",
+        "city": "Indio",
+        "country": "USA",
+        "coords": { "lng": -116.237, "lat": 33.68 }
+      },
+      "startAt": "2025-04-11T10:00:00Z",
+      "endAt": "2025-04-13T23:59:00Z",
+      "genres": ["Indie", "Pop", "Electronic"],
+      "popularity": 98,
+      "slots": [
+        {
+          "artist": "Billie Eilish",
+          "stage": "Main Stage",
+          "style": "Pop",
+          "startAt": "2025-04-12T22:30:00Z",
+          "endAt": "2025-04-12T23:30:00Z"
+        },
+        {
+          "artist": "Tame Impala",
+          "stage": "Outdoor Theatre",
+          "style": "Indie Rock",
+          "startAt": "2025-04-13T21:00:00Z",
+          "endAt": "2025-04-13T22:15:00Z"
+        },
+        {
+          "artist": "Fred again..",
+          "stage": "Sahara",
+          "style": "Electronic",
+          "startAt": "2025-04-12T20:00:00Z",
+          "endAt": "2025-04-12T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Glastonbury",
+      "location": {
+        "place": "Worthy Farm",
+        "city": "Pilton",
+        "country": "UK",
+        "coords": { "lng": -2.585, "lat": 51.155 }
+      },
+      "startAt": "2025-06-25T10:00:00Z",
+      "endAt": "2025-06-29T23:59:00Z",
+      "genres": ["Rock", "Pop", "Indie"],
+      "popularity": 97,
+      "slots": [
+        {
+          "artist": "Coldplay",
+          "stage": "Pyramid Stage",
+          "style": "Pop Rock",
+          "startAt": "2025-06-27T22:00:00Z",
+          "endAt": "2025-06-27T23:30:00Z"
+        },
+        {
+          "artist": "Arctic Monkeys",
+          "stage": "Other Stage",
+          "style": "Indie Rock",
+          "startAt": "2025-06-28T21:00:00Z",
+          "endAt": "2025-06-28T22:15:00Z"
+        },
+        {
+          "artist": "Foo Fighters",
+          "stage": "Pyramid Stage",
+          "style": "Rock",
+          "startAt": "2025-06-29T22:00:00Z",
+          "endAt": "2025-06-29T23:30:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Primavera Sound",
+      "location": {
+        "place": "Parc del Fòrum",
+        "city": "Barcelona",
+        "country": "Spain",
+        "coords": { "lng": 2.219, "lat": 41.409 }
+      },
+      "startAt": "2025-05-29T15:00:00Z",
+      "endAt": "2025-05-31T23:59:00Z",
+      "genres": ["Indie", "Alternative", "Electronic"],
+      "popularity": 93,
+      "slots": [
+        {
+          "artist": "The Strokes",
+          "stage": "Estrella Damm",
+          "style": "Indie Rock",
+          "startAt": "2025-05-30T22:00:00Z",
+          "endAt": "2025-05-30T23:30:00Z"
+        },
+        {
+          "artist": "Rosalía",
+          "stage": "Pull&Bear",
+          "style": "Pop",
+          "startAt": "2025-05-31T21:00:00Z",
+          "endAt": "2025-05-31T22:00:00Z"
+        },
+        {
+          "artist": "Disclosure",
+          "stage": "Cupra Stage",
+          "style": "Electronic",
+          "startAt": "2025-05-30T23:45:00Z",
+          "endAt": "2025-05-31T01:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Ultra Music Festival",
+      "location": {
+        "place": "Bayfront Park",
+        "city": "Miami",
+        "country": "USA",
+        "coords": { "lng": -80.188, "lat": 25.775 }
+      },
+      "startAt": "2025-03-28T10:00:00Z",
+      "endAt": "2025-03-30T23:59:00Z",
+      "genres": ["EDM", "Techno", "House"],
+      "popularity": 96,
+      "slots": [
+        {
+          "artist": "David Guetta",
+          "stage": "Mainstage",
+          "style": "EDM",
+          "startAt": "2025-03-29T22:00:00Z",
+          "endAt": "2025-03-29T23:00:00Z"
+        },
+        {
+          "artist": "Carl Cox",
+          "stage": "Resistance",
+          "style": "Techno",
+          "startAt": "2025-03-29T21:00:00Z",
+          "endAt": "2025-03-29T22:00:00Z"
+        },
+        {
+          "artist": "Peggy Gou",
+          "stage": "Live Arena",
+          "style": "House",
+          "startAt": "2025-03-30T20:00:00Z",
+          "endAt": "2025-03-30T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Hellfest",
+      "location": {
+        "place": "Clisson",
+        "city": "Clisson",
+        "country": "France",
+        "coords": { "lng": -1.247, "lat": 47.091 }
+      },
+      "startAt": "2025-06-20T10:00:00Z",
+      "endAt": "2025-06-22T23:59:00Z",
+      "genres": ["Metal", "Punk", "Rock"],
+      "popularity": 94,
+      "slots": [
+        {
+          "artist": "Iron Maiden",
+          "stage": "Mainstage 1",
+          "style": "Heavy Metal",
+          "startAt": "2025-06-21T22:00:00Z",
+          "endAt": "2025-06-21T23:30:00Z"
+        },
+        {
+          "artist": "Bring Me The Horizon",
+          "stage": "Mainstage 2",
+          "style": "Metalcore",
+          "startAt": "2025-06-20T21:00:00Z",
+          "endAt": "2025-06-20T22:00:00Z"
+        },
+        {
+          "artist": "NOFX",
+          "stage": "Warzone",
+          "style": "Punk Rock",
+          "startAt": "2025-06-22T20:00:00Z",
+          "endAt": "2025-06-22T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Boomtown Fair",
+      "location": {
+        "place": "Matterley Estate",
+        "city": "Winchester",
+        "country": "UK",
+        "coords": { "lng": -1.277, "lat": 51.053 }
+      },
+      "startAt": "2025-08-13T10:00:00Z",
+      "endAt": "2025-08-17T23:59:00Z",
+      "genres": ["Drum & Bass", "Reggae", "Dub", "Techno"],
+      "popularity": 88,
+      "slots": [
+        {
+          "artist": "Chase & Status",
+          "stage": "Sector 6",
+          "style": "Drum & Bass",
+          "startAt": "2025-08-15T22:00:00Z",
+          "endAt": "2025-08-15T23:00:00Z"
+        },
+        {
+          "artist": "Gentleman’s Dub Club",
+          "stage": "Lion’s Den",
+          "style": "Dub",
+          "startAt": "2025-08-14T20:00:00Z",
+          "endAt": "2025-08-14T21:00:00Z"
+        },
+        {
+          "artist": "Skeptical",
+          "stage": "Sector 6",
+          "style": "Drum & Bass",
+          "startAt": "2025-08-16T21:00:00Z",
+          "endAt": "2025-08-16T22:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Rock am Ring",
+      "location": {
+        "place": "Nürburgring",
+        "city": "Nürburg",
+        "country": "Germany",
+        "coords": { "lng": 6.949, "lat": 50.335 }
+      },
+      "startAt": "2025-06-06T10:00:00Z",
+      "endAt": "2025-06-08T23:59:00Z",
+      "genres": ["Rock", "Metal"],
+      "popularity": 91,
+      "slots": [
+        {
+          "artist": "Rammstein",
+          "stage": "Mainstage",
+          "style": "Industrial Metal",
+          "startAt": "2025-06-07T22:00:00Z",
+          "endAt": "2025-06-07T23:30:00Z"
+        },
+        {
+          "artist": "Muse",
+          "stage": "Alterna Stage",
+          "style": "Rock",
+          "startAt": "2025-06-08T21:00:00Z",
+          "endAt": "2025-06-08T22:15:00Z"
+        },
+        {
+          "artist": "Parkway Drive",
+          "stage": "Mainstage",
+          "style": "Metalcore",
+          "startAt": "2025-06-06T20:00:00Z",
+          "endAt": "2025-06-06T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Electric Daisy Carnival",
+      "location": {
+        "place": "Las Vegas Motor Speedway",
+        "city": "Las Vegas",
+        "country": "USA",
+        "coords": { "lng": -115.013, "lat": 36.272 }
+      },
+      "startAt": "2025-05-16T18:00:00Z",
+      "endAt": "2025-05-18T06:00:00Z",
+      "genres": ["EDM", "Trance", "House"],
+      "popularity": 98,
+      "slots": [
+        {
+          "artist": "Alesso",
+          "stage": "KineticFIELD",
+          "style": "EDM",
+          "startAt": "2025-05-17T02:00:00Z",
+          "endAt": "2025-05-17T03:00:00Z"
+        },
+        {
+          "artist": "Above & Beyond",
+          "stage": "CircuitGROUNDS",
+          "style": "Trance",
+          "startAt": "2025-05-17T03:30:00Z",
+          "endAt": "2025-05-17T04:30:00Z"
+        },
+        {
+          "artist": "deadmau5",
+          "stage": "CosmicMEADOW",
+          "style": "Progressive House",
+          "startAt": "2025-05-18T03:00:00Z",
+          "endAt": "2025-05-18T04:00:00Z"
+        }
+      ]
     }
   ]
 }
