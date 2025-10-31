@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { listFestivals, createFestival } from "../controllers/festival.controller";
+import { listFestivals, createFestival } from "../controllers/festival.controller.js";
 
 const router = Router();
 

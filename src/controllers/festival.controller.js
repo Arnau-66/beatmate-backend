@@ -1,4 +1,4 @@
-import { Festival } from "../models/festival.model";
+import { Festival } from "../models/festival.model.js";
 
 export async function listFestivals(req, res) {
     try {

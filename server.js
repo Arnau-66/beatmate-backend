@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { connectDB } from "./src/config/db.js";
 import authRoutes from "./src/routes/auth.routes.js";
-import festivalsRoutes from "/src/routes/festival.routes.js"
+import festivalsRoutes from "./src/routes/festivals.routes.js";
 
 dotenv.config();
 
